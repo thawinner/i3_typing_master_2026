@@ -11,7 +11,6 @@ public class Login {
         System.out.print("Password: ");
         String pass = sc.nextLine();
         
-        // Simple logic for midterm demonstration
         System.out.println("Welcome back, " + user + "!");
     }
 }
