@@ -29,7 +29,7 @@ public class welcome {
                     break;
                 case 2:
                     ResetPassword resetPassword = new ResetPassword();
-                    resetPassword.reset();
+                    resetPassword.show();
                     break;
                 case 3:
                     Login login = new Login();
