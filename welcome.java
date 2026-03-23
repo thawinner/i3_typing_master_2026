@@ -23,7 +23,14 @@ public class welcome {
             sc.nextLine();
 
             switch (choice) {
-
+                case 1:
+                    Register register = new Register();
+                    register.showRegistration();
+                    break;
+                case 2:
+                    ResetPassword resetPassword = new ResetPassword();
+                    resetPassword.reset();
+                    break;
 
             }
         } while (choice != 7);
