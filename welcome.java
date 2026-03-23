@@ -35,8 +35,23 @@ public class welcome {
                     Login login = new Login();
                     login.show();
                     break;
-                
-
+                case 4:
+                    TestResults testResults = new TestResults();
+                    testResults.displayResults();
+                    break;
+                case 5:
+                    TypingTest typingTest = new TypingTest();
+                    typingTest.startTest();
+                    break;
+                case 6:
+                    AboutUs aboutUs = new AboutUs();
+                    aboutUs.showInfo();
+                    break;
+                case 7:
+                    System.out.println("Exiting the program. Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid option. Please try again.");
             }
         } while (choice != 7);
         sc.close();
