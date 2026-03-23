@@ -31,6 +31,11 @@ public class welcome {
                     ResetPassword resetPassword = new ResetPassword();
                     resetPassword.reset();
                     break;
+                case 3:
+                    Login login = new Login();
+                    login.show();
+                    break;
+                
 
             }
         } while (choice != 7);
